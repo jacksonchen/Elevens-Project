@@ -10,7 +10,8 @@
 
 ##Activity 3
 
-1.
+1)
+
 ```
 public static string flip() {
   if (Math.random() > 0.33) {
@@ -22,7 +23,8 @@ public static string flip() {
 }
 ```
 
-2.
+2)
+
 ```
 public static boolean arePermutations(int[] a, int[] b){
     for(int i = 0; i < a.length; i++){
@@ -41,4 +43,4 @@ public static boolean arePermutations(int[] a, int[] b){
 }
 ```
 
-3. 1, 2, 2, 2
+3) 1, 2, 2, 2
