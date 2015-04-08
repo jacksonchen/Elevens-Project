@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Tests\ shuffling\ methods.\n\ @param\ args\ is\ not\ used.\n
+comment1.params=values
+comment1.target=void\ perfectShuffle(int[])
+comment1.text=\n\ Apply\ a\ "perfect\ shuffle"\ to\ the\ argument.\n\ The\ perfect\ shuffle\ algorithm\ splits\ the\ deck\ in\ half,\ then\ interleaves\n\ the\ cards\ in\ one\ half\ with\ the\ cards\ in\ the\ other.\n\ @param\ values\ is\ an\ array\ of\ integers\ simulating\ cards\ to\ be\ shuffled.\n
+comment2.params=values
+comment2.target=void\ selectionShuffle(int[])
+comment2.text=\n\ Apply\ an\ "efficient\ selection\ shuffle"\ to\ the\ argument.\n\ The\ selection\ shuffle\ algorithm\ conceptually\ maintains\ two\ sequences\n\ of\ cards\:\ the\ selected\ cards\ (initially\ empty)\ and\ the\ not-yet-selected\n\ cards\ (initially\ the\ entire\ deck).\ It\ repeatedly\ does\ the\ following\ until\n\ all\ cards\ have\ been\ selected\:\ randomly\ remove\ a\ card\ from\ those\ not\ yet\n\ selected\ and\ add\ it\ to\ the\ selected\ cards.\n\ An\ efficient\ version\ of\ this\ algorithm\ makes\ use\ of\ arrays\ to\ avoid\n\ searching\ for\ an\ as-yet-unselected\ card.\n\ @param\ values\ is\ an\ array\ of\ integers\ simulating\ cards\ to\ be\ shuffled.\n
+numComments=3
