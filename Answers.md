@@ -101,3 +101,10 @@ e. anotherPlayIsPossible()
 
 3) They cover all the differences because all of the methods that are exactly shareable between the card games are implemented in the Board class while the overlapping functions that require different implmentations (anotherPlayIsPossible and isLegal) are abstract, and thus implemented in the respective board game subclasses.
 
+##Activity 9
+
+1) Size is an instance variable. There is no need to create setters or getter methods in the Board class since the size variable is already defined in the subclass.
+
+2) Because removing and replacing cards is uniform regardless of which game is being played. Thus it can be implemented in the Board class and does not need to be an abstract method.
+
+3) isLegal() and anotherPlayIsPossible() would still be called polymorphically. This alternate design can still work but all of the methods will have to be implemented separately for each card game board class.

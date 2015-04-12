@@ -297,6 +297,7 @@ public class CardGameGUI extends JFrame implements ActionListener {
 				selections[k] = false;
 			}
 			// Do the replace.
+			signalError();
 			board.replaceSelectedCards(selection);
 			if (board.isEmpty()) {
 				signalWin();

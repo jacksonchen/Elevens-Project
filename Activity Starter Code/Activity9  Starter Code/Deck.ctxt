@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=ranks\ suits\ values
+comment0.target=Deck(java.lang.String[],\ java.lang.String[],\ int[])
+comment0.text=\n\ Creates\ a\ new\ <code>Deck</code>\ instance.<BR>\n\ It\ pairs\ each\ element\ of\ ranks\ with\ each\ element\ of\ suits,\n\ and\ produces\ one\ of\ the\ corresponding\ card.\n\ @param\ ranks\ is\ an\ array\ containing\ all\ of\ the\ card\ ranks.\n\ @param\ suits\ is\ an\ array\ containing\ all\ of\ the\ card\ suits.\n\ @param\ values\ is\ an\ array\ containing\ all\ of\ the\ card\ point\ values.\n
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment1.text=\n\ Determines\ if\ this\ deck\ is\ empty\ (no\ undealt\ cards).\n\ @return\ true\ if\ this\ deck\ is\ empty,\ false\ otherwise.\n
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\n\ Accesses\ the\ number\ of\ undealt\ cards\ in\ this\ deck.\n\ @return\ the\ number\ of\ undealt\ cards\ in\ this\ deck.\n
+comment3.params=
+comment3.target=void\ shuffle()
+comment3.text=\n\ Randomly\ permute\ the\ given\ collection\ of\ cards\n\ and\ reset\ the\ size\ to\ represent\ the\ entire\ deck.\n
+comment4.params=
+comment4.target=Card\ deal()
+comment4.text=\n\ Deals\ a\ card\ from\ this\ deck.\n\ @return\ the\ card\ just\ dealt,\ or\ null\ if\ all\ the\ cards\ have\ been\n\ \ \ \ \ \ \ \ \ previously\ dealt.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Generates\ and\ returns\ a\ string\ representation\ of\ this\ deck.\n\ @return\ a\ string\ representation\ of\ this\ deck.\n
+numComments=6

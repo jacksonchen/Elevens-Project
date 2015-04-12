@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ElevensBoard()
+comment0.text=\n\ Creates\ a\ new\ <code>ElevensBoard</code>\ instance.\n
+comment1.params=selectedCards
+comment1.target=boolean\ isLegal(java.util.List)
+comment1.text=\n\ Determines\ if\ the\ selected\ cards\ form\ a\ valid\ group\ for\ removal.\n\ In\ Elevens,\ the\ legal\ groups\ are\ (1)\ a\ pair\ of\ non-face\ cards\n\ whose\ values\ add\ to\ 11,\ and\ (2)\ a\ group\ of\ three\ cards\ consisting\ of\n\ a\ jack,\ a\ queen,\ and\ a\ king\ in\ some\ order.\n\ @param\ selectedCards\ the\ list\ of\ the\ indices\ of\ the\ selected\ cards.\n\ @return\ true\ if\ the\ selected\ cards\ form\ a\ valid\ group\ for\ removal;\n\ \ \ \ \ \ \ \ false\ otherwise.\n
+comment2.params=
+comment2.target=boolean\ anotherPlayIsPossible()
+comment2.text=\n\ Determine\ if\ there\ are\ any\ legal\ plays\ left\ on\ the\ board.\n\ In\ Elevens,\ there\ is\ a\ legal\ play\ if\ the\ board\ contains\n\ (1)\ a\ pair\ of\ non-face\ cards\ whose\ values\ add\ to\ 11,\ or\ (2)\ a\ group\n\ of\ three\ cards\ consisting\ of\ a\ jack,\ a\ queen,\ and\ a\ king\ in\ some\ order.\n\ @return\ true\ if\ there\ is\ a\ legal\ play\ left\ on\ the\ board;\n\ \ \ \ \ \ \ \ \ false\ otherwise.\n
+comment3.params=selectedCards
+comment3.target=boolean\ containsPairSum11(java.util.List)
+comment3.text=\n\ Check\ for\ an\ 11-pair\ in\ the\ selected\ cards.\n\ @param\ selectedCards\ selects\ a\ subset\ of\ this\ board.\ \ It\ is\ list\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ of\ indexes\ into\ this\ board\ that\ are\ searched\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ find\ an\ 11-pair.\n\ @return\ true\ if\ the\ board\ entries\ in\ selectedCards\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ contain\ an\ 11-pair;\ false\ otherwise.\n
+comment4.params=selectedCards
+comment4.target=boolean\ containsJQK(java.util.List)
+comment4.text=\n\ Check\ for\ a\ JQK\ in\ the\ selected\ cards.\n\ @param\ selectedCards\ selects\ a\ subset\ of\ this\ board.\ \ It\ is\ list\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ of\ indexes\ into\ this\ board\ that\ are\ searched\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ find\ a\ JQK\ group.\n\ @return\ true\ if\ the\ board\ entries\ in\ selectedCards\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ include\ a\ jack,\ a\ queen,\ and\ a\ king;\ false\ otherwise.\n
+numComments=5
