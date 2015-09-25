@@ -1,2 +1,2 @@
-# AP-Elevens-Lab
-AP Elevens Lab
+# Elevens Project
+The Elevents Project for Computer Science.
