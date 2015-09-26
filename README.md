@@ -1,5 +1,4 @@
 # Elevens Project
-<hr>
 The Elevents Project for Computer Science.
 
 <h3>About the project</h3>
