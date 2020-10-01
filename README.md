@@ -1,4 +1,4 @@
-# Elevens Project
+# Elevens Project amazing
 The Elevents Project for Computer Science.
 
 <h3>About the project</h3>
